@@ -1,20 +1,23 @@
-@font-face {
-  font-family: "edwardSans";
-  src: url("../fonts/webfontkit-20210827-024520/itcedscr-webfont.woff2")
-      format("woff2"),
-    url("../fonts/webfontkit-20210827-024520/itcedscr-webfont.woff")
-      format("woff");
-  font-weight: normal;
-  font-style: normal;
+@import "../fonts/LustScript/LustScript.css";
+
+.pull-left {
+  float: left;
 }
-a,
-h1 {
-  font-family: "edwardSans", Arial, Helvetica, sans-serif;
+.pull-right {
+  float: right;
+}
+.half-width {
+  width: 50%;
 }
 
 body {
   height: 1000px;
-  background-image: linear-gradient(to bottom, #ed213a, #93291e);
+  background-color: #8c130a;
+}
+
+a,
+h1 {
+  font-family: "SoulFood", Arial, Helvetica, sans-serif;
 }
 
 .header {
@@ -27,11 +30,10 @@ body {
 }
 
 #logo {
-  width: 124px;
+  width: 83px;
   position: absolute;
-  left: 0;
+  left: 10px;
   top: 0;
-  height: 75px;
 }
 
 .headerList {
@@ -96,7 +98,7 @@ body {
 }
 #menuSection {
   width: 100%;
-  height: 663px;
+  height: 711px;
   z-index: 3;
   position: relative;
 }
@@ -136,71 +138,64 @@ body {
 }
 #AboutUs {
   width: 100%;
-  height: 500px;
+  height: 640px;
+  padding-top: 80px;
   background-color: transparent;
 }
-.staffInfo {
-  display: flex;
-  justify-content: space-evenly;
+
+#aboutUs {
+  font-size: 50px;
+  font-family: "soulfood", Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: rgba(234, 216, 182, 255);
+  float: right;
+  margin-right: 300px;
   position: relative;
+  clear: both;
+}
+
+#about-Us {
+  margin-right: 100px;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  color: rgba(234, 216, 182, 255);
+  float: right;
+  margin-right: 80px;
+  position: relative;
+  margin-left: 60px;
   top: 50px;
+  clear: both;
 }
-.staffInfo li {
-  height: 400px;
-  width: 350px;
-  background: coral;
-  color: white;
-  font-size: 20px;
-  position: relative;
-  flex-direction: row;
-  border-radius: 40px;
-  display: flex;
-  flex-direction: column;
-  padding-left: 10px;
-}
-
-.explanation {
+#foodUs {
+  height: 40rem;
+  width: 50rem;
   float: left;
-  clear: both;
-  display: inline-flex;
-  margin: -15px 0 0 21px;
-  overflow: hidden;
-}
-#cook {
-  height: 260px;
-  width: 240px;
-  top: 55px;
+  top: 15px;
   position: relative;
-  left: 27px;
-  float: right;
-  clear: both;
 }
-
-#CEO {
-  height: 250px;
-  width: 180px;
+#reserve-img {
+  background-image: url("../images/stanford-smith-UezWo2oY4M0-unsplash.jpg");
+  height: 80%;
+  margin-bottom: 30px;
   position: relative;
-  top: 65px;
-  right: 8px;
-  float: right;
-  clear: both;
-  margin: 0 0 0 10px;
-  z-index: 5;
+  z-index: 9;
+  background-attachment: fixed;
 }
-
-#headChief {
-  height: 250px;
-  width: 200px;
-  position: relative;
-  top: 65px;
-  float: right;
-  clear: both;
+#banner1 {
+  height: 800px;
+  width: 100%;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: black;
+  opacity: 0.6;
 }
-
 #reservation {
   width: 600px;
   height: 600px;
-  background-color: #ff5252;
+  background-color: #8c130a;
   border-radius: 30px;
   justify-content: center;
   align-items: center;
@@ -209,6 +204,7 @@ body {
   top: 100px;
   padding-top: 30px;
 }
+
 .label-group {
   display: flex;
   flex-direction: column;
@@ -264,4 +260,17 @@ body {
   justify-items: center;
   margin: 30px 0 0 165px;
   font-family: sans-serif;
+}
+#contact {
+  background-color: #8c130a;
+  height: 500px;
+  width: 200px;
+}
+#logo1 {
+  position: relative;
+  height: 107px;
+  width: 113px;
+  justify-items: center;
+  align-items: center;
+  margin-left: 686px;
 }
