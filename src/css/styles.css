@@ -263,8 +263,8 @@ h1 {
 }
 #contact {
   background-color: #8c130a;
-  height: 500px;
-  width: 200px;
+  height: 330px;
+  width: 100%;
 }
 #logo1 {
   position: relative;
@@ -273,4 +273,39 @@ h1 {
   justify-items: center;
   align-items: center;
   margin-left: 686px;
+}
+.contactInfo {
+  font: 20px;
+  color: rgba(255, 255, 255, 0.9);
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  justify-content: center;
+  margin-left: 500px;
+  height: 40px;
+  width: 500px;
+}
+.Icons {
+  list-style-type: none;
+  position: absolute;
+  display: flex;
+  margin-left: 600px;
+  margin-top: 68px;
+}
+.Icons img {
+  margin-left: 10px;
+  margin-right: 10px;
+  align-items: center;
+  height: 50px;
+  width: 50px;
+}
+#hr {
+  color: #b4b0b0;
+  margin-top: 128px;
+}
+#copyright {
+  color: #b4b0b0;
+  text-align: center;
+  margin-left: 50px;
+  font-size: 15px;
+  margin-top: 0px;
 }
